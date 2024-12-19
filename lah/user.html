@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Dashboard</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a href="academic.html">Academic Achievements</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="marketplace.html">Marketplace</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div id="transactionHistory">
+        <h2>Transaction History</h2>
+        <table id="historyTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Activity</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data filled by JS -->
+            </tbody>
+        </table>
+    </div>
+    <h1>Dashboard</h1>
+    <div id="pointSummary">
+        <h2>Total Points: <span id="totalPoints">0</span></h2>
+    </div>
+</div>
+<script src="profile.js"></script>
+</body>
+</html>
